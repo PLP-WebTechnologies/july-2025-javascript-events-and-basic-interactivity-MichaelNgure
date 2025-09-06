@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Interactive Web Page with JavaScript</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>🌟 Welcome to My Interactive Page 🌟</h1>
+
+  <!-- Part 1: Event Handling -->
+  <button id="messageBtn">Click Me!</button>
+  <p id="message"></p>
+
+  <!-- Part 2: Interactive Elements -->
+  <section>
+    <h2>🎮 Interactive Features</h2>
+    
+    <!-- Light/Dark Mode -->
+    <button id="toggleMode">Toggle Light/Dark Mode</button>
+
+    <!-- Counter -->
+    <div class="counter">
+      <button id="decrease">-</button>
+      <span id="count">0</span>
+      <button id="increase">+</button>
+    </div>
+
+    <!-- Collapsible FAQ -->
+    <div class="faq">
+      <h3 id="faqQuestion">❓ What is JavaScript?</h3>
+      <p id="faqAnswer" class="hidden">JavaScript is a programming language that makes web pages interactive!</p>
+    </div>
+  </section>
+
+  <!-- Part 3: Form Validation -->
+  <section>
+    <h2>📋 Signup Form</h2>
+    <form id="signupForm">
+      <label>Name:</label>
+      <input type="text" id="name"><br>
+
+      <label>Email:</label>
+      <input type="text" id="email"><br>
+
+      <label>Password:</label>
+      <input type="password" id="password"><br>
+
+      <button type="submit">Submit</button>
+    </form>
+    <div id="formMessages"></div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
